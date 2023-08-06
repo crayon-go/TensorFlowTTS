@@ -1,3 +1,23 @@
+Tacotron2, FastSpeech2를 KSS 데이터셋으로 학습된 모델을 이용해서 데모를 정리해놓은 소스코드 입니다.
+필요 라이브러리와 버전을 의존성에 맞게 수정하였습니다.
+
+Hugging Face에서 아래 3가지 모델을 제공, https://huggingface.co/tensorspeech
+- FastSpeech2 trained on KSS (Korean)
+- Multi-band MelGAN trained on KSS (Korean)
+- Tacotron 2 with Guided Attention trained on KSS (Korean)
+
+KSS Dataset (Korean Single Speaker Speech Dataset)
+- https://www.kaggle.com/datasets/bryanpark/korean-single-speaker-speech-dataset
+
+환경
+- Windows10
+- Geforce RTX 3070
+- Python 3.7
+- Tensorflow 2.6
+- plz see "requirements_for_demo.txt"
+
+---
+
 <h2 align="center">
 <p> :yum: TensorFlowTTS
 <p align="center">
